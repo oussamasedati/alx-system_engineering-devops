@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get the third line of the file using head and tail
+line=$(head -n 3 iacta | tail -n 1)
+
+# Display the third line
+echo "$line"
+

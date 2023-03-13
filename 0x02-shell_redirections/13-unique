@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Use the sort command to sort the input words alphabetically
+# then use the uniq command to count the occurrence of each word
+# and filter only the words that appear exactly once
+# and finally use the sort command again to sort the output
+sort | uniq -c | awk '$1 == 1 {print $2}' | sort
+

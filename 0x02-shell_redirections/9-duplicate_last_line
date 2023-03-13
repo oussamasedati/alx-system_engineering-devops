@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get the last line of the file using the tail command and store it in a variable
+last_line=$(tail -n 1 iacta)
+
+# Append the last line to the file using the echo command
+echo "$last_line" >> iacta
+

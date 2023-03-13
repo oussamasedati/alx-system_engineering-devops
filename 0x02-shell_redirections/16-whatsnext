@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Use the grep command to search for lines containing the pattern "root" in the file /etc/passwd
+# Use the option -A to print 3 lines after the matching line
+grep -A 3 "root" /etc/passwd
+

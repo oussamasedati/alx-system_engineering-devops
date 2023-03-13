@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Read the input string from the user
+echo "Enter the input string: "
+read input_string
+
+# Replace all characters A with Z and all characters c with e
+output_string=$(echo "$input_string" | tr 'A' 'Z' | tr 'c' 'e')
+
+# Display the output string
+echo "Output string: $output_string"
+
