@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get the values of the POWER and DIVIDE environment variables
+POWER=$POWER
+DIVIDE=$DIVIDE
+
+# Perform the division
+RESULT=$(echo "scale=2; $POWER / $DIVIDE" | bc)
+
+# Print the result to the console, followed by a new line
+echo $RESULT
+echo
+
