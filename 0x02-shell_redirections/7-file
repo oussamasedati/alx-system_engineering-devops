@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Create the file with touch and the required filename
 touch '*\\'"Best School"'\\*$\?*********:)' 
-
-# Add the text "Best School" and a newline to the file using echo and a redirection operator
-echo "Best School" >> '*\\'"Best School"'\\*$\?*********:)' 
-
