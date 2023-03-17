@@ -1,5 +1,2 @@
 #!/bin/bash
-echo "Enter the input string: "
-read input_string
-output_string=$(echo "$input_string" | rev)
-echo "Output string: $output_string"
+echo $1 | rev
