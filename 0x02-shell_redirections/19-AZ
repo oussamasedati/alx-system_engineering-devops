@@ -1,2 +1,2 @@
 #!/bin/bash
-echo read line | tr 'Ac' 'Ze'
+while read -r line do echo "$line" | sed 's/A/Z/g; s/c/e/g' done
