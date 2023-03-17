@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $line | tr ' ' '\n' | sort | uniq -u
+read line echo $line | tr ' ' '\n' | sort | uniq -u
