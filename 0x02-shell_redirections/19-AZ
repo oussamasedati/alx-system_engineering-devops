@@ -1,2 +1,2 @@
 #!/bin/bash
-echo read line | tr 'ac' 'ze'
+echo read line | tr 'Ac' 'Ze'
