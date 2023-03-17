@@ -1,3 +1,2 @@
 #!/bin/bash
-dir_count=$(find . -mindepth 1 -maxdepth 1 -type d -name ".*" -o -type d -print | wc -l)
-echo "The number of directories and sub-directories in the current directory is: $dir_count"
+find . -mindepth 1 -maxdepth 1 -type d \( ! -iname ".*" \) | wc -lnt"
