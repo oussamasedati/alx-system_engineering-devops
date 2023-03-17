@@ -1,2 +1,2 @@
-#bash
+#!/bin/bash
 chmod 571 hello
