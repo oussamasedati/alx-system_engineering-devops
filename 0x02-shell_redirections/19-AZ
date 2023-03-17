@@ -1,5 +1,2 @@
 #!/bin/bash
-echo "Enter the input string: "
-read input_string
-output_string=$(echo "$input_string" | tr 'A' 'Z' | tr 'c' 'e')
-echo "Output string: $output_string"
+read line; echo $line | tr 'ac' 'ze'
