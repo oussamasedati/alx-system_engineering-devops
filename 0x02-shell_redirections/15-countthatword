@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# Use the grep command to search for lines containing the pattern "bin" in the file /etc/passwd
-# Use the wc command to count the number of lines that match the pattern
 grep "bin" /etc/passwd | wc -l
