@@ -1,4 +1,2 @@
 #!/bin/bash
-read input_string
-output_string=$(echo "$input_string" | tr -d 'cC')
-echo "Output string: $output_string"
+read line; echo $line | tr -d 'cC'
