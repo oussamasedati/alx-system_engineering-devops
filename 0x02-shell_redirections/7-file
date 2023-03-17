@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "best school" >> '*\\"best school"\\*$?*****:)'
+printf '*\\"best school"\\*$?*****:)' | xargs touch echo "best school" >> '*\\"best school"\\*$?*****:)'
