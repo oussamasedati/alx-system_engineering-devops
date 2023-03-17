@@ -1,3 +1,2 @@
 #!/bin/bash
 mv -t /tmp/u /[[:upper:]]*  echo "total 0"  ls -1 /[[:upper:]]* | xargs -I {} sh -c "echo 'total 0' ls -l {}"
-
