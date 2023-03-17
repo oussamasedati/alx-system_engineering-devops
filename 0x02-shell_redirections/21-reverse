@@ -1,12 +1,5 @@
 #!/bin/bash
-
-# Read the input string from the user
 echo "Enter the input string: "
 read input_string
-
-# Reverse the input string
 output_string=$(echo "$input_string" | rev)
-
-# Display the output string
 echo "Output string: $output_string"
-
