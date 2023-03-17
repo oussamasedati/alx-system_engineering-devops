@@ -1,12 +1,5 @@
 #!/bin/bash
-
-# Read the /etc/passwd file and extract the user and home directory fields
 user_info=$(awk -F: '{print $1,$6}' /etc/passwd)
-
-# Sort the user info by the user field
 sorted_user_info=$(echo "$user_info" | sort)
-
-# Display the sorted user info
 echo "List of users and their home directories:"
 echo "$sorted_user_info"
-
