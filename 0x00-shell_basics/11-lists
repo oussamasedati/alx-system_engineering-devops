@@ -1,12 +1,2 @@
 #!/bin/bash
-
-echo "./:"
-ls -al
-
-echo ""
-echo "../:"
-ls -al ..
-
-echo ""
-echo "/boot/:"
 ls -al /boot
