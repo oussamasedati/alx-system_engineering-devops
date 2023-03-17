@@ -1,2 +1,2 @@
 #!/bin/bash
-echo read line | tr -d 'cC'
+echo $1 | tr -d 'cC'
