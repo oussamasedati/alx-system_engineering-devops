@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '*\\"best school"\\*$?*****:)' | xargs touch echo "best school" >> '*\\"best school"\\*$?*****:)'
+echo 'Best School' > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:) & wait echo 'File created successfully!'
