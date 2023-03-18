@@ -1,5 +1,2 @@
 #!/bin/bash
-user_info=$(awk -F: '{print $1,$6}' /etc/passwd)
-sorted_user_info=$(echo "$user_info" | sort)
-echo "List of users and their home directories:"
-echo "$sorted_user_info"
+cat /etc/passwd | awk -F: '{print $1, $6}' | sort
