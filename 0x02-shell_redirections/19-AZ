@@ -1,2 +1,2 @@
 #!/bin/bash
-while read -r line do echo "$line" | sed 's/A/Z/g; s/c/e/g' done
+echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | sed 's/A/Z/g;s/c/e/g'
