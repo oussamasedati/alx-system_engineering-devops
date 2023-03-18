@@ -1,2 +1,3 @@
 #!/bin/bash
-read -ra words for word in "${words[@]}" do ((word_counts[$word]++)) done; for word in "${!word_counts[@]}" do if ((word_counts[$word] == 1)) then echo "$word" fi done | sort
+read -p "Enter a list of words: " words
+echo "$words" | tr ' ' '\n' | sort | uniq -u   # split into lines, sort, and print unique lines
