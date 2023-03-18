@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "$(read input echo $input)" | rev)
+echo "$1" | rev
