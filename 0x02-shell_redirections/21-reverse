@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $(rev <<< "$1")
+#!/bin/sh
+echo $(echo "$1" | rev)
