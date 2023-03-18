@@ -1,2 +1,2 @@
-#!/bin/sh
-echo $(echo "$1" | rev)
+#!/bin/bash
+echo $(read str) | rev
