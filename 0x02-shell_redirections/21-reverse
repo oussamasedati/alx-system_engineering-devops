@@ -1,2 +1,2 @@
 #!/bin/bash
-echo read str | rev
+echo $(cat) | rev
