@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Use the "set" command to display all local variables and environment variables
-set
-
-# Use the "declare" command to display all functions
-declare -F
-
+set declare -F
