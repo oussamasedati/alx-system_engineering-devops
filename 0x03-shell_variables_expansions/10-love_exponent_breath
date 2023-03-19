@@ -1,13 +1,2 @@
 #!/bin/bash
-
-# Get the values of the BREATH and LOVE environment variables
-BREATH=$BREATH
-LOVE=$LOVE
-
-# Calculate the result
-RESULT=$(echo "scale=2; $BREATH ^ $LOVE" | bc)
-
-# Print the result to the console, followed by a new line
-echo $RESULT
-echo
-
+echo $(($BREATH ** $LOVE))
