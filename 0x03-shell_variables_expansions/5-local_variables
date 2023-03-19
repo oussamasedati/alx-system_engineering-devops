@@ -1,2 +1,2 @@
 #!/bin/bash
-set -o posix
+echo "$(set | grep -v 'BASH\|PROMPT_COMMAND\|TERM\|_' | sed -e 's/=.*//')" "$(env | grep -v 'BASH\|PROMPT_COMMAND\|TERM\|_' | sed -e 's/=.*//')" "$(declare -F | awk '{print $3}')"
