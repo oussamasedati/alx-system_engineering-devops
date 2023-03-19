@@ -1,2 +1,2 @@
 #!/bin/bash
-touch '*\\"best school"\\*$?*****:)' && echo "best school" >> '*\\"best school"\\*$?*****:)' && echo "" >> '*\\"best school"\\*$?*****:)'
+touch '*\\"Best School"\\*$?*****:)' && echo "Best School\n" >> '*\\"best school"\\*$?*****:)' && echo "" >> '*\\"best school"\\*$?*****:)'
