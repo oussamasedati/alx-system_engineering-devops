@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# Use the "env" command to display all environment variables
 env
-
